@@ -11,7 +11,7 @@ int main(int argc, char *argv[]) {
 	double i;
 	do{
 		f=(1-h)*y;
-		printf("µ±x=%f,y=%f\n",x,f);
+		printf("µ±x=%f,y=%f\n",x,f);// 
 		x+=h;
 		i=y-f;
 		y=f;
