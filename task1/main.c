@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
 int main(int argc, char *argv[]) {
-	double a;
+	double a=1;
 	double f;
-	double h;
-	scanf("%lf %lf",&a,&h);
+	double h=0.001;
+//	scanf("%lf %lf",&a,&h);
 	double y=a ;
 	double x=0.001;
 	double i;
